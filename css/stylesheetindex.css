@@ -1,3 +1,4 @@
+
 #main{
     display: flex;
     text-align: center;
@@ -177,4 +178,36 @@ label{
     border-top: 1px;
     position: bottom;
     font-size: .8rem;
+}
+#project-header{
+    color: solid black;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.project-note{
+    padding-top: 5%;
+    margin-bottom: 3;
+}
+.project-img{
+    width: 100%;
+    height: 350px;
+    vertical-align: middle;
+}
+.project-para{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-family: Roboto Slab;
+}
+.project-para-head{
+    font-family: Balsamiq Sans;
+    font-size: 40px;
+}
+.btn-outline-primary{
+    background-color:  #2F28C5;
+    color: #ffffff;
+     font-family: Balsamiq Sans;
 }
