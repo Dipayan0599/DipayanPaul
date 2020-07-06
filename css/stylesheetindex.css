@@ -229,3 +229,33 @@ label{
     min-height: 45vh;
     display: flex;
 }
+.table {
+    border-collapse: collapse;
+    border-color: #ffffff;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.td, .th {
+    border: 5px solid #2F28C5;
+    padding: 12px;
+}
+
+.td{
+    font-family: "Times New Roman";
+    font-size: 22px;
+}
+
+.tr {background-color: #ffffff;}
+
+.th {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 25px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
